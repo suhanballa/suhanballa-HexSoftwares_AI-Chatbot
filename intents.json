@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me", "Help me please"],
+      "responses": [
+        "Sure! Please tell me your issue.",
+        "I’m here to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What services do you provide?", "What do you offer?", "Your services"],
+      "responses": [
+        "We provide AI chatbot development and web solutions.",
+        "Our services include AI and NLP-based chatbot systems."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime 😊"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care 👋"
+      ]
+    }
+  ]
+}
