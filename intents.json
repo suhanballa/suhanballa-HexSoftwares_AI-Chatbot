@@ -26,6 +26,23 @@
       ]
     },
     {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "who are you",
+        "What is this chatbot?",
+        "what is this chatbot",
+        "Tell me about yourself",
+        "tell me about yourself",
+        "about you",
+        "what are you"
+      ],
+      "responses": [
+        "I am an AI chatbot built using NLP and machine learning.",
+        "I am a virtual assistant designed to answer user queries."
+      ]
+    },
+    {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "Thanks a lot"],
       "responses": [
